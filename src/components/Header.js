@@ -84,7 +84,6 @@ const heading = ()=>{
 
   const showAll =()=>{
     setFoodItems(Foodarr);
-    console.log(foodItems);
   }
   
   
@@ -92,21 +91,18 @@ const heading = ()=>{
       setFoodItems(Foodarr.filter((item)=>{
           return item.category === "breakfast";
       }));
-      console.log(foodItems);
   }
   
   const showLunch=()=>{
     setFoodItems(Foodarr.filter((item)=>{
         return item.category === "lunch";
     }));
-    console.log(foodItems);
   }
   
   const showShakes =()=>{
     setFoodItems(Foodarr.filter((item)=>{
         return item.category == "shakes";
     }));
-    console.log(foodItems);
   }
   
 
