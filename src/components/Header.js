@@ -112,10 +112,10 @@ const heading = ()=>{
             <h1 className="headingTitle">Our Menu</h1>
             <div>
                 <ul type="none" className="headingTabs">
-                    <li className="main" onClick={showAll} >All</li>
-                    <li className="filter-btn-1" onClick={showBreakfast}>Breakfast</li>
-                    <li className="filter-btn-2" onClick={showLunch}>Lunch</li>
-                    <li className="filter-btn-3" onClick={showShakes}>Shakes</li>
+                    <button className="main" onClick={showAll} >All</button>
+                    <button className="filter-btn-1" onClick={showBreakfast}>Breakfast</button>
+                    <button className="filter-btn-2" onClick={showLunch}>Lunch</button>
+                    <button className="filter-btn-3" onClick={showShakes}>Shakes</button>
                 </ul>
             </div>
 
