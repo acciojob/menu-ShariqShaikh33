@@ -1,2 +1,15 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+import React from "react";
+import Card from "./card";
+import Heading from "./Header";
 
+const App =()=>{
+    return (
+        <div>
+            <Heading/> 
+        </div>
+          
+    )
+
+}
+
+export default App;
