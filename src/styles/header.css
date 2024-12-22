@@ -1,6 +1,7 @@
 .headingTitle{
     text-align: center;
-    text-decoration: underline;
+    text-decoration: underline #c6a064;
+    margin-bottom: 30px;
 }
 
 .headingTabs{
@@ -9,6 +10,8 @@
     display: flex;
     flex-direction: rows;
     justify-content: space-around; 
-    font-size: 20px;
+    
+    font-size: 26px;
     margin-top: 20px;
+    color: #c6a064;
 }

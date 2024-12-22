@@ -9,7 +9,7 @@ const card = (props) =>{
                 <div className="cardContent">
                     <div className="cardTop">
                         <h1 className="cardName">{props.title}</h1>
-                        <p className="cardPrice">{props.price}</p>
+                        <p className="cardPrice">$ {props.price}</p>
                     </div>
                     <hr className="cardLine"></hr>
                     <div className="cardDescription">{props.desc}</div>
