@@ -109,10 +109,10 @@ const App =()=>{
         <div>
             <h1 className="headingTitle">Our Menu</h1>
             <div className="headingTabs">
-                    <button id="main" className="main" onClick={showAll} >All</button>
-                    <button id="filter-btn-1" className="filter-btn-1" onClick={showBreakfast}>Breakfast</button>
-                    <button id="filter-btn-2" className="filter-btn-2" onClick={showLunch}>Lunch</button>
-                    <button id="filter-btn-3" className="filter-btn-3" onClick={showShakes}>Shakes</button>
+                    <button  id="main" className="main" onClick={showAll} >All</button>
+                    <button data-test-id="menu-item-breakfast" id="filter-btn-1" className="filter-btn-1" onClick={showBreakfast}>Breakfast</button>
+                    <button data-test-id="menu-item-lunch" id="filter-btn-2" className="filter-btn-2" onClick={showLunch}>Lunch</button>
+                    <button data-test-id="menu-item-shakes" id="filter-btn-3" className="filter-btn-3" onClick={showShakes}>Shakes</button>
                 
             </div>
 
