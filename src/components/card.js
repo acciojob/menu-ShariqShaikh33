@@ -3,7 +3,7 @@ import "../styles/card.css";
 
 const card = (props) =>{
     return (
-        <div className="cardWrapper" id={props.id}>
+        <div className="cardWrapper" data-test-id={"menu-item-"+props.category} id={props.id}>
             <div className="cardDiv">
                 <img className="cardImg" src={props.img}></img>
                 <div className="cardContent">
