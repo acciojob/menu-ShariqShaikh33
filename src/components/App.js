@@ -82,6 +82,7 @@ let Foodarr =[
 const App =()=>{
     const [foodItems, setFoodItems]=useState(Foodarr);
 
+
     const showAll =()=>{
       setFoodItems(Foodarr);
     }
@@ -108,13 +109,13 @@ const App =()=>{
     return(
         <div>
             <h1 className="headingTitle">Our Menu</h1>
-            <div className="headingTabs">
-                    <button  id="main" className="main" onClick={showAll} >All</button>
-                    <button data-test-id="menu-item-breakfast" id="filter-btn-1" onClick={showBreakfast}>Breakfast</button>
-                    <button data-test-id="menu-item-lunch" id="filter-btn-2" onClick={showLunch}>Lunch</button>
-                    <button data-test-id="menu-item-shakes" id="filter-btn-3" onClick={showShakes}>Shakes</button>
+            <ul className="headingTabs">
+                    <li  id="main" className="main" onClick={showAll} >All</li>
+                    <li data-test-id="menu-item-breakfast" id="filter-btn-1" className="filter-btn-1" onClick={showBreakfast}>Breakfast</li>
+                    <li data-test-id="menu-item-lunch" id="filter-btn-2" className="filter-btn-2" onClick={showLunch}>Lunch</li>
+                    <li data-test-id="menu-item-shakes" id="filter-btn-3" className="filter-btn-3" onClick={showShakes}>Shakes</li>
                 
-            </div>
+            </ul>
 
             <div className="Fooddiv">
               {foodItems.map((item)=>{
